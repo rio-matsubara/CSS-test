@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test-position.css">
+    <style>
+        #relative {
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+
+
+        .parent {
+            /* 親要素はrelativeに */
+            position: relative;
+            padding: 20px;
+            background-color: rgb(212, 208, 208);
+        }
+
+        #absolute {
+            position: absolute;
+            background-color: aquamarine;
+            top: 0;
+            left: 0;
+        }
+
+        /*装飾は省略*/
+    </style>
+</head>
+
+<body>
+    <!-- <p>指定なし</p>
+    <p id="relative">relative</p> -->
+
+    <!-- <div class="parent">
+        <p>要素①</p>
+        <p id="absolute">要素②</p> -->
+
+    <!-- 画像の上に要素を重ねる -->
+    <div id="example">
+        <img src="IMG_3065.JPG">
+        <span>青い空</span>
+    </div>
+    </div>
+
+
+    <!-- 上部に要素を固定する -->
+    <p>これは文章です。</p>
+    <p>これは文章2です。</p>
+    .
+    .
+    .
+    <p>これは文章20です。</p>
+
+    <p id="fixed">fixed</p>
+</body>
+
+</html>
